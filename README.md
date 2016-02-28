@@ -10,7 +10,7 @@ Based on instructions provided by the team that develop [Knock to Unlock](http:/
 
 [blueutil](https://github.com/toy/blueutil), which is very easy to install using [Homebrew](http://brew.sh/).
 
-    brew install blueutil
+    $ brew install blueutil
 
 # Instructions
 
@@ -18,11 +18,11 @@ Based on instructions provided by the team that develop [Knock to Unlock](http:/
 
 The script requires admin privileges.
 
-    sudo bluetooth-clean-cache
+    $ sudo bluetooth-clean-cache
 
 ## Restart Computer
 
-    shutdown -r now
+    $ shutdown -r now
 
 ## Done
 
