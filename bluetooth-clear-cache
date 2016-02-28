@@ -6,14 +6,14 @@ set -e
 # Turn off bluetooth
 blueutil power 0
 
+# Remove system Bluetooth related cache files.
+rm -f /Library/Preferences/com.apple.Bluetooth.plist
+rm -f /Library/Preferences/SystemConfiguration/com.apple.Bluetooth.plist
+
 # Remove user specific Bluetooth related cache files.
 rm -f ~/Library/Preferences/ByHost/com.apple.Bluetooth.*.plist
 # Also remove associated *.lockfiles (and other files with random extensions).
 rm -f ~/Library/Preferences/ByHost/com.apple.Bluetooth.*.plist.*
-
-# Remove system Bluetooth related cache files.
-rm -f /Library/Preferences/com.apple.Bluetooth.plist
-rm -f /Library/Preferences/SystemConfiguration/com.apple.Bluetooth.plist
 
 # Turn on bluetooth
 blueutil power 1
