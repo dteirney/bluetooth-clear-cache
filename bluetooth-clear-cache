@@ -18,4 +18,4 @@ rm -f ~/Library/Preferences/ByHost/com.apple.Bluetooth.*.plist.*
 # Turn on bluetooth
 blueutil power 1
 
-echo "Clearing Bluetooth cache complete. Please restart the computer now."
+echo "Clearing Bluetooth cache complete. Please restart the Mac, and then pair existing Bluetooth devices."
