@@ -18,7 +18,7 @@ Based on instructions provided by the team that develop [Knock to Unlock](http:/
 
 The script requires admin privileges.
 
-    $ sudo bluetooth-clear-cache
+    $ sudo ./bluetooth-clear-cache
 
 ## Restart Computer
 
