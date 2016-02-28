@@ -19,4 +19,4 @@ rm -f /Library/Preferences/SystemConfiguration/com.apple.Bluetooth.plist
 # Turn on bluetooth
 blueutil power 1
 
-echo "Bluetooth cache clean complete. Please restart the computer now."
+echo "Clearing Bluetooth cache complete. Please restart the computer now."
