@@ -1,6 +1,6 @@
-# Clean your Mac OS X Bluetooth Cache
+# Clear your Mac OS X Bluetooth Cache
 
-The `bluetooth-clean-cache` script can be used to clean the Bluetooth cache on Mac OS X.
+The `bluetooth-clear-cache` script can be used to clear the Bluetooth cache on Mac OS X.
 
 Based on instructions provided by the team that develop [Knock to Unlock](http://www.knocktounlock.com/).
 
@@ -18,7 +18,7 @@ Based on instructions provided by the team that develop [Knock to Unlock](http:/
 
 The script requires admin privileges.
 
-    $ sudo bluetooth-clean-cache
+    $ sudo bluetooth-clear-cache
 
 ## Restart Computer
 
