@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# All of the following commands should succeed. If they don't something went wrong.
+set -e
+
+# Turn off bluetooth
+blueutil power 0
+
+# Remove user specific Bluetooth related cache files.
+rm -f ~/Library/Preferences/com.apple.Bluetooth.plist
+rm -f ~/Library/Preferences/ByHost/com.apple.Bluetooth.*.plist
+# Also remove associated *.lockfiles (and other files with random extensions).
+rm -f ~/Library/Preferences/ByHost/com.apple.Bluetooth.*.plist.*
+
+# Remove system Bluetooth related cache files.
+rm -f /Library/Preferences/com.apple.Bluetooth.plist
+rm -f /Library/Preferences/SystemConfiguration/com.apple.Bluetooth.plist
+
+# Turn on bluetooth
+blueutil power 1
+
+echo "Bluetooth cache clean complete. Please restart the computer now."
